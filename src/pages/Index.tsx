@@ -1,12 +1,19 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import HowItWorks from "@/components/HowItWorks";
+import TrustedPartners from "@/components/TrustedPartners";
+import Testimonials from "@/components/Testimonials";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">LifeLine</h1>
-        <p className="text-xl text-muted-foreground">Connecting Blood Donors with Patients in Urgent Need</p>
-      </div>
+    <div className="min-h-screen">
+      <Navbar />
+      <Hero />
+      <HowItWorks />
+      <TrustedPartners />
+      <Testimonials />
+      <Footer />
     </div>
   );
 };

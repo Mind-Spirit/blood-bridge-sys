@@ -32,6 +32,18 @@ export default {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
+				blood: {
+					DEFAULT: 'hsl(var(--blood))',
+					foreground: 'hsl(var(--blood-foreground))'
+				},
+				emergency: {
+					DEFAULT: 'hsl(var(--emergency))',
+					foreground: 'hsl(var(--emergency-foreground))'
+				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
